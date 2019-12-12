@@ -1,0 +1,35 @@
+Hello there,
+
+  This project is containe lots of stuff about, How to develop project using web technologies like HTML, CSS, PHP. 
+  Here I have used HTML and CSS for front-end development & PHP for back-end.
+  
+  ======================
+  To start the project,
+  ======================
+  1. Install xampp to use MySql locally.
+  2. Use SQL_EXPORT folder's PhpProject.sql to create database
+  3. put whole project in htdocs folder to run it.
+  4. start with login page
+  
+  done.
+  
+  ======================
+  functionalities
+  ======================
+  1. authentication & authorization
+  2. Email service using phpmailer
+  3. Receptionist can take order
+  4. cook can see orders
+  5. admin can do curd operations
+  
+  
+  
+  ============================
+  Developer
+  ============================
+  
+  1. NEMISH ZALAVADIYA
+    emial : 13101999znemish@gmail.com
+    
+  2. KUMAR SANU
+    
