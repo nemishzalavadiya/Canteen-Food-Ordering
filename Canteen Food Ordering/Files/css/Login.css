@@ -1,0 +1,165 @@
+@media(min-width:760px){        
+        body{
+                    margin:0;
+                    padding:0;
+                        background-color: #ccc;
+                    background:url(../../IMAGES/2.jpg) no-repeat center center fixed;
+                    -webkit-background-size:cover;
+                }
+                   
+               #block{
+                   border:3px solid;
+                   border-style: ridge;
+                   border-style:inset;
+                    margin-left: 33%;
+                    margin-right: 500px;
+                    width:40%;
+                    padding-bottom: 10px;
+                    background-color: #aaa;
+                    border-radius: 10px;
+                 
+               }
+              
+               #logo{
+                border-radius: 10px;
+                background-size: 50%;
+                margin-left: 35%;
+               }
+               .animation{
+                  
+                font-size: 3em;
+                margin-left:30%;
+                background: url(../../IMAGES/animation.jpg);
+                background-clip: text;
+                -webkit-background-clip:text; 
+                color:transparent;
+                animation: move 5s linear infinite;
+                -webkit-animation: move 5s linear infinite;
+
+               }
+
+               @keyframes move{
+                  0% {
+                    background-position: 30% 30%;
+                  }
+
+                  100% {
+                    background-position: 100% 50%;
+                  }
+                }
+                .inpu{
+                  display: flex;
+                  padding-left: 37%;
+                }
+                .inpu > div{
+
+                  padding-right: 10px;
+                }
+                .inpu a{
+                  color:dodgerblue;
+                }
+                  .contain{
+                    display: flex;
+                    margin-left: 30%;
+                    margin-top: 10px;
+                }
+                .cap{
+                    margin-top: 8px;
+                }
+}
+                input[type='text'],input[type='password'],input[type='email'],input[type='number']{
+                    margin-bottom: 10px;
+                    border:none;
+                    padding:7px;
+                    margin-left: 20%;
+                    border-radius:10px;
+                    background-color: #ccc; 
+                    width: 50%;
+                   }
+                   input[type='submit']{
+                    margin-bottom: 10px;
+                    border:none;
+                    padding:7px;
+                    margin-left:20%;
+                    border-radius:10px;
+                    width: 50%;
+                    background-color:#22c6f0; 
+                   }
+                   
+                   h2{
+                       margin-left: 32%;
+                   }
+                   input[type='submit']:hover{
+                       color:#a5f;
+                   }
+                 
+                 h4{
+                    margin-left: 0px;
+                    padding-left: 0px;
+                    color:#acd;
+                   } 
+
+                 
+@media(max-width:760px){
+    #logo{
+                border-radius: 10px;
+                background-size: 10%;
+                margin-left: 10%;
+                image-resolution: 100%;
+                width: 70%;
+                
+               }
+    .contain{
+                    display: flex;
+                    margin-left: 7%;
+                    margin-top: 10px;
+                }
+                .cap{
+                    margin-top: 8px;
+                }
+                .capcha
+                {
+                    width: 10%;
+                }
+    body{
+                    margin:0;
+                    padding:0;
+                        background-color: #ccc;
+                    background:url(../../IMAGES/2.jpg) no-repeat center center fixed;
+                    -webkit-background-size:cover;
+                    image-resolution: 100%;
+                }
+    .animation{
+                  
+                font-size:2em;
+                margin-left:10%;
+                background: url(../../IMAGES/animation.jpg);
+                background-clip: text;
+                -webkit-background-clip:text; 
+                color:transparent;
+                animation: move 5s linear infinite;
+                -webkit-animation: move 5s linear infinite;
+
+               }
+
+               @keyframes move{
+                  0% {
+                    background-position: 30% 30%;
+                  }
+
+                  100% {
+                    background-position: 100% 50%;
+                  }
+                }
+        #block{
+                   border:3px solid;
+                   border-style: ridge;
+                   border-style:inset;
+                    margin-left: 20%;
+                   
+                    padding-bottom: 10px;
+                    background-color: #aaa;
+                    width: 54%;
+                    border-radius: 10px;
+               }
+}
